@@ -4,7 +4,7 @@ Train a model remotely using Google Cloud Compute Engine.
 ### With Conda
 Create a conda environment by running
 ```
-conda create --name aidl-session3 python=3.8
+conda create --name aidl-session3 python=3.9
 ```
 Then, activate the environment
 ```
@@ -34,3 +34,18 @@ A deep learning model that classifies images as either cars or flowers using PyT
 ## Setup
 ```bash
 pip install torch torchvision
+```
+
+## for github config
+First, create a Personal Access Token on GitHub:
+
+Go to GitHub.com and log in
+Click your profile picture → Settings
+Scroll down to Developer Settings (bottom of left sidebar)
+Click Personal Access Tokens → Tokens (classic)
+Generate New Token (classic)
+Give it a name (like "Command line access")
+Select scopes: check at least repo
+Click "Generate token"
+IMPORTANT: Copy the token immediately - you won't be able to see it again
+
